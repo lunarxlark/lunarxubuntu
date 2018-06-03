@@ -30,6 +30,7 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", inline: <<-SHELL
     # init
     apt-get update
+    timedatectl set-timezone Asia/Tokyo
   SHELL
   #config.vm.provision "shell", path: "provision/vim.sh", privileged: false
   config.vm.provision "shell", path: "provision/python3.sh", privileged: false

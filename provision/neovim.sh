@@ -10,8 +10,8 @@
 sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:neovim-ppa/stable
 sudo apt-get update
-sudo apt-get install neovim
-echo 'alias vi="nvim"' >> ~/.bash_alias
+sudo apt-get install -y neovim
+echo 'alias vi="nvim"' >> ~/.bash_aliases
 
 pip3 install neovim --no-cache-dir --use
 ~/.rbenv/shims/gem install neovim
