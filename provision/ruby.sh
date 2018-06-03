@@ -2,9 +2,8 @@
 
 # rbenv
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
-echo 'export PATH=$HOME/.rbenv/bin:$PATH' >> ~/.bashrc
-echo 'export PATH=$HOME/.rbenv/shims:$PATH' >> ~/.bashrc
-eval "$(rbenv init -)"
+
+echo 'eval $(rbenv init -) >> ~/.bashrc'
 source ~/.bashrc
 
 # ruby-build
