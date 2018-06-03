@@ -1,3 +1,4 @@
 .git
 .vagrant
 ubuntu*log
+node_modules/
