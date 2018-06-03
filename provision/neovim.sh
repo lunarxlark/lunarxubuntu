@@ -15,3 +15,5 @@ echo 'alias vi="nvim"' >> ~/.bash_aliases
 
 pip3 install neovim --no-cache-dir --use
 ~/.rbenv/shims/gem install neovim
+#~/.rbenv/shims/gem update neovim
+sudo node install -g neovim
