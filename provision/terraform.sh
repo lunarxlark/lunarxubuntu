@@ -4,7 +4,7 @@ unzip terraform_0.11.7_linux_amd64.zip -d ~/.local/bin
 
 terraform -install-autocomplete
 
-cat << 'EOF' >> ~/.bashrc
+cat << 'EOF' >> ~/.profile
 # terraform aws credential
 export TF_VAR_access_key=${AWS_ACCESS_KEY_ID}
 export TF_VAR_secret_key=${AWS_SECRET_ACCESS_KEY}

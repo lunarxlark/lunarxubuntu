@@ -5,7 +5,7 @@ sudo echo "complete -C $(which aws_completer) aws" | sudo tee -a /etc/bash.bashr
 
 sudo npm install -g cfn-lint
 
-cat << EOF >> ~/.bashrc
+cat << EOF >> ~/.profile
 # aws credentian
 export AWS_ACCESS_KEY_ID=XXXXXXXXXXX
 echo "export AWS_SECRET_ACCESS_KEY=XXXXXXXXXXX
