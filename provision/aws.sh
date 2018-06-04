@@ -8,7 +8,7 @@ sudo npm install -g cfn-lint
 cat << EOF >> ~/.profile
 # aws credentian
 export AWS_ACCESS_KEY_ID=XXXXXXXXXXX
-echo "export AWS_SECRET_ACCESS_KEY=XXXXXXXXXXX
-echo "export AWS_DEFAULT_REGION=ap-northeast-1
-echo "export AWS_DEFAULT_OUTPUT=json
+export AWS_SECRET_ACCESS_KEY=XXXXXXXXXXX
+export AWS_DEFAULT_REGION=ap-northeast-1
+export AWS_DEFAULT_OUTPUT=json
 EOF
