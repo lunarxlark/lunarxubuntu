@@ -3,7 +3,7 @@
 # rbenv
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 
-echo 'eval $(rbenv init -) >> ~/.profile'
+echo 'eval $(.rbenv/bin/rbenv init -) >> ~/.profile'
 source ~/.bashrc
 
 # ruby-build
