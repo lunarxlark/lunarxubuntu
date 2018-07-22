@@ -10,4 +10,3 @@ apt-get install -y docker-ce
 cat /etc/group | grep docker || groupadd docker
 gpasswd -a vagrant docker
 systemctl enable docker
-
