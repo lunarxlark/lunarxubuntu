@@ -16,6 +16,11 @@ export TF_VAR_secret_key=${AWS_SECRET_ACCESS_KEY}
 export TF_VAR_region=${AWS_DEFAULT_REGION}
 EOF
 
+# installation of tflint
+wget https://github.com/wata727/tflint/releases/download/v0.7.1/tflint_linux_amd64.zip
+unzip tflint_linux_amd64.zip -d ~/.local/bin
+rm tflint_linux_amd64.zip
+
 # installation of terraforming
 gem install terraforming
 
