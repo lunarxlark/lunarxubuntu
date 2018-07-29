@@ -55,4 +55,8 @@ Vagrant.configure("2") do |config|
   #(required) python3
   config.vm.provision "shell", path: "provision/aws.sh",       privileged: false
   config.vm.provision "shell", path: "provision/ansible.sh",   privileged: false
+
+  config.vm.provision "shell", inline: <<-SHELL
+    sudo chown -R vagrant:vagrant /home/vagrant/.config
+  SHELL
 end
